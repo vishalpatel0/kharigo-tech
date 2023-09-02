@@ -21,6 +21,11 @@ body {
     /* background-color: var(--background-light); */
 }
 
+.tital {
+    text-align: center;
+    padding: 40px 0px;
+}
+
 .header {
     /* background-color: var(--primary-color); */
     color: var(--secondary-color);

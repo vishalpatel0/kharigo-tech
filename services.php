@@ -52,6 +52,8 @@ $page_description = "Kharigo Tech is Elevate your website with captivating conte
                             <li>Google Maps integration (if applicable)</li>
                             <li>Content management system (CMS) for easy updates</li>
                         </ul>
+                        <a href="<?= $base_url ?>#contact" class="w-100 btn btn-primary btn-lg">Get Started</a>
+
                     </div>
                 </div>
             </div>
@@ -75,6 +77,8 @@ $page_description = "Kharigo Tech is Elevate your website with captivating conte
                             <li>Integration with mailing list services</li>
                             <li>CMS with more customization options</li>
                         </ul>
+                        <a href="<?= $base_url ?>#contact" class="w-100 btn btn-primary btn-lg">Get Started</a>
+
                     </div>
                 </div>
             </div>
@@ -98,6 +102,8 @@ $page_description = "Kharigo Tech is Elevate your website with captivating conte
                             <li>Advanced security features</li>
                             <li>Ongoing maintenance and updates</li>
                         </ul>
+                        <a href="<?= $base_url ?>#contact" class="w-100 btn btn-primary btn-lg">Get Started</a>
+
                     </div>
                 </div>
             </div>
@@ -181,6 +187,8 @@ $page_description = "Kharigo Tech is Elevate your website with captivating conte
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 

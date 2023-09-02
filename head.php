@@ -21,7 +21,7 @@ $currentURL .= $_SERVER['REQUEST_URI'];
 
     <meta property="og:title" content="<?= isset($page_og_tital) ? $page_og_tital : $page_tital ?>">
     <meta property="og:description" content="<?= isset($page_og_description) ? $page_og_description : $page_description ?>">
-    <!-- <meta property="og:image" content="https://e0.pxfuel.com/wallpapers/728/888/desktop-wallpaper-case-study-website-design-for-software-development-company-undo.jpg"> Add the URL of the image you want to use -->
+    <meta property="og:image" content="https://e0.pxfuel.com/wallpapers/728/888/desktop-wallpaper-case-study-website-design-for-software-development-company-undo.jpg"> Add the URL of the image you want to use
     <meta property="og:url" content="<?= $currentURL ?>">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Kharigo">

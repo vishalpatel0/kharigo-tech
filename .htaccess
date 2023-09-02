@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !^/(public|Agarbatti|wholesale|_Server|_pay|_test|tech|tushar)/ [NC]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(?!public/|Agarbatti/|wholesale|_Server/|_pay/|_test|tech|tushar/)(.*)$ index.php [L,QSA]
+

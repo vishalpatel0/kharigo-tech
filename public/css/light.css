@@ -1,0 +1,18 @@
+/* Customize the color scheme */
+:root {
+    --primary-color: #ffff7b;
+    /* Yellow */
+    --secondary-color: #e74c3c;
+    --secondary_2-color: #f39c12;
+
+
+    /* Red */
+    --background-light: #f8f9fa;
+    /* Light Gray */
+    --background-dark: #333333;
+    /* Dark Gray */
+    --text-light: #ffffff;
+    /* White */
+    --text-dark: #000000;
+    /* Black */
+}

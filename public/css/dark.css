@@ -1,0 +1,44 @@
+/* Customize the color scheme */
+:root {
+    --primary-color: #f8f8f8;
+    /* Yellow */
+    --secondary-color: #ffffff;
+    --secondary_2-color: #ffffff;
+
+
+    /* Red */
+    --background-light: #4e4c4c;
+    /* Light Gray */
+    --background-dark: #313030;
+    /* Dark Gray */
+    --text-light: #745959;
+    /* White */
+    --text-dark: #dcd9d9;
+    /* Black */
+}
+
+body {
+    background-color: var(--background-dark) !important;
+    color: var(--text-dark) !important;
+}
+
+.bg-light,
+.accordion,
+.accordion-button,
+
+button:hover,
+input::placeholder,
+textarea::placeholder,
+input,
+
+textarea {
+    background-color: var(--background-dark) !important;
+    color: var(--text-dark) !important;
+}
+
+.accordion-collapse,
+.btn,
+.card-body {
+    background-color: var(--background-light) !important;
+    color: var(--text-dark) !important;
+}

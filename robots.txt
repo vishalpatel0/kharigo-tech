@@ -1,4 +1,0 @@
-user-agent: *
-allow: /
-Disallow: /_test/
-sitemap: https://kharigo.com/sitemap.xml
